@@ -1,0 +1,308 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* proyecto_final
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20181018\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 09:15+0000\n"
+"PO-Revision-Date: 2019-02-28 10:48+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Language: en\n"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_apellidos
+msgid "Apellidos"
+msgstr "Surname"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_create_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_create_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_create_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_create_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_create_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_create_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_create_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_create_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_name
+msgid "DNI"
+msgstr "ID Number"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_description
+msgid "Description"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_display_name
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_display_name
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_display_name
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_display_name
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_duracion
+msgid "Duracion"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_edad
+msgid "Edad"
+msgstr "Age"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_equipo
+msgid "Equipo"
+msgstr "Team"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_partida_equipo1
+msgid "Equipo 1"
+msgstr "Team 1"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_partida_equipo2
+msgid "Equipo 2"
+msgstr "Team 2"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_equipo
+msgid "Equipos"
+msgstr "Teams"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_fecha_comienzo
+msgid "Fecha de inicio"
+msgstr "Starting date"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_fecha_nac
+msgid "Fecha de nacimiento"
+msgstr "Birth date"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_id
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_id
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_id
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_id
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_id
+msgid "ID"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_icono
+msgid "Icono"
+msgstr "Icon"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_name
+msgid "Identificador"
+msgstr "Identifier"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_jugador
+msgid "Jugadores"
+msgstr "Players"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo___last_update
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador___last_update
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida___last_update
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final___last_update
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_write_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_write_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_write_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_write_uid
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_write_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_write_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_write_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_write_date
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_2
+msgid "Lista de Equipos"
+msgstr "Teams List"
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_1
+msgid "Lista de Jugadores"
+msgstr "Players List"
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_3
+msgid "Lista de Torneos"
+msgstr "Events List"
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_4
+msgid "Lista de partidas"
+msgstr "Games List"
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_2_list
+msgid "Listado equipos"
+msgstr "List Teams"
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_1_list
+msgid "Listado jugadores"
+msgstr "List Players"
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_4_list
+msgid "Listado partidas"
+msgstr "List Games"
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_3_list
+msgid "Listado torneos"
+msgstr "List Events"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_lugar
+msgid "Lugar"
+msgstr "Place"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_nacionalidad
+msgid "Nacionalidad"
+msgstr "Nationality"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_name
+msgid "Name"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_name
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_jugador_nombre
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_name
+msgid "Nombre"
+msgstr "Name"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_partida
+msgid "Partidas"
+msgstr "Games"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_torneo_premio
+msgid "Premio"
+msgstr "Prize"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_equipo1
+msgid "Primer equipo"
+msgstr "First Team"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_resultado
+msgid "Resultado"
+msgstr "Result"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_equipo2
+msgid "Segundo equipo"
+msgstr "Second Team"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_partida_torneo
+msgid "Torneo"
+msgstr "Event"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_equipo_torneo
+msgid "Torneos"
+msgstr "Events"
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_value
+msgid "Value"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model.fields,field_description:proyecto_final.field_proyecto_final_proyecto_final_value2
+msgid "Value2"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.ui.menu,name:proyecto_final.menu_root
+msgid "proyecto_final"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.actions.act_window,name:proyecto_final.equipo_action_window
+msgid "proyecto_final equipo window"
+msgstr "proyecto_final team window"
+
+#. module: proyecto_final
+#: model:ir.actions.act_window,name:proyecto_final.jugador_action_window
+msgid "proyecto_final jugador window"
+msgstr "proyecto_final player window"
+
+#. module: proyecto_final
+#: model:ir.actions.act_window,name:proyecto_final.partida_action_window
+msgid "proyecto_final partida window"
+msgstr "proyecto_final game window"
+
+#. module: proyecto_final
+#: model:ir.actions.act_window,name:proyecto_final.torneo_action_window
+msgid "proyecto_final torneo window"
+msgstr "proyecto_final event window"
+
+#. module: proyecto_final
+#: model:ir.model,name:proyecto_final.model_proyecto_final_equipo
+msgid "proyecto_final.equipo"
+msgstr "proyecto_final.team"
+
+#. module: proyecto_final
+#: model:ir.model,name:proyecto_final.model_proyecto_final_jugador
+msgid "proyecto_final.jugador"
+msgstr "proyecto_final.player"
+
+#. module: proyecto_final
+#: model:ir.model,name:proyecto_final.model_proyecto_final_partida
+msgid "proyecto_final.partida"
+msgstr "proyecto_final.game"
+
+#. module: proyecto_final
+#: model:ir.model,name:proyecto_final.model_proyecto_final_proyecto_final
+msgid "proyecto_final.proyecto_final"
+msgstr ""
+
+#. module: proyecto_final
+#: model:ir.model,name:proyecto_final.model_proyecto_final_torneo
+msgid "proyecto_final.torneo"
+msgstr "proyecto_final.event"

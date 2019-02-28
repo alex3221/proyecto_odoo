@@ -1,0 +1,130 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="proyecto_final.jugador_list">
+      <field name="name">proyecto_final jugador list</field>
+      <field name="model">proyecto_final.jugador</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="nombre"/>
+          <field name="apellidos"/>
+          <field name="fecha_nac"/>
+          <field name="edad"/>
+          <field name="nacionalidad"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="proyecto_final.equipo_list">
+      <field name="name">proyecto_final equipo list</field>
+      <field name="model">proyecto_final.equipo</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="icono" widget="image" height="50" width="50"/>
+          <field name="torneo"/>
+          <field name="jugador" widget="many2many_tags"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="proyecto_final.torneo_list">
+      <field name="name">proyecto_final torneo list</field>
+      <field name="model">proyecto_final.torneo</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="lugar"/>
+          <field name="premio"/>
+          <field name="fecha_comienzo"/>
+          <field name="duracion"/>
+          <field name="equipo"/>
+          <field name="partida"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="proyecto_final.partida_list">
+      <field name="name">proyecto_final partida list</field>
+      <field name="model">proyecto_final.partida</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="equipo1"/>
+          <field name="equipo2"/>
+          <field name="resultado"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="proyecto_final.jugador_action_window">
+      <field name="name">proyecto_final jugador window</field>
+      <field name="res_model">proyecto_final.jugador</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="proyecto_final.equipo_action_window">
+      <field name="name">proyecto_final equipo window</field>
+      <field name="res_model">proyecto_final.equipo</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="proyecto_final.torneo_action_window">
+      <field name="name">proyecto_final torneo window</field>
+      <field name="res_model">proyecto_final.torneo</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="proyecto_final.partida_action_window">
+      <field name="name">proyecto_final partida window</field>
+      <field name="res_model">proyecto_final.partida</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="proyecto_final.action_server">
+      <field name="name">proyecto_final server</field>
+      <field name="model_id" ref="model_proyecto_final_proyecto_final"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <menuitem name="proyecto_final" id="proyecto_final.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="Lista de Jugadores" id="proyecto_final.menu_1" parent="proyecto_final.menu_root"/>
+    <menuitem name="Lista de Equipos" id="proyecto_final.menu_2" parent="proyecto_final.menu_root"/>
+    <menuitem name="Lista de Torneos" id="proyecto_final.menu_3" parent="proyecto_final.menu_root"/>
+    <menuitem name="Lista de Partidas" id="proyecto_final.menu_4" parent="proyecto_final.menu_root"/>
+    <!--
+    <menuitem name="Menu 2" id="proyecto_final.menu_2" parent="proyecto_final.menu_root"/>
+    -->
+    <!-- actions -->
+
+    <menuitem name="Listado jugadores" id="proyecto_final.menu_1_list" parent="proyecto_final.menu_1"
+              action="proyecto_final.jugador_action_window"/>
+
+    <menuitem name="Listado equipos" id="proyecto_final.menu_2_list" parent="proyecto_final.menu_2"
+              action="proyecto_final.equipo_action_window"/>
+
+    <menuitem name="Listado torneos" id="proyecto_final.menu_3_list" parent="proyecto_final.menu_3"
+              action="proyecto_final.torneo_action_window"/>
+
+    <menuitem name="Listado partidas" id="proyecto_final.menu_4_list" parent="proyecto_final.menu_4"
+              action="proyecto_final.partida_action_window"/>
+    <!--
+    <menuitem name="Server to list" id="proyecto_final" parent="proyecto_final.menu_2"
+              action="proyecto_final.action_server"/>
+    -->
+  </data>
+</odoo>

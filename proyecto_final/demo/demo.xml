@@ -1,0 +1,224 @@
+<odoo>
+    <data>
+          <record id="equipo1" model="proyecto_final.equipo">
+             <field name="name">Fnatic</field>
+          </record>
+
+          <record id="equipo2" model="proyecto_final.equipo">
+             <field name="name">Secret</field>
+          </record>
+
+          <record id="equipo3" model="proyecto_final.equipo">
+             <field name="name">Virtus Pro</field>
+          </record>
+
+          <record id="equipo4" model="proyecto_final.equipo">
+             <field name="name">Liquid</field>
+
+          </record>
+
+          <record id="torneo1" model="proyecto_final.torneo">
+             <field name="name">ESL</field>
+             <field name="lugar">Alemania, Berlin</field>
+             <field name="premio">20000</field>
+             <field name="fecha_comienzo">2019-02-28</field>
+             <field name="duracion">6</field>
+             <field name="equipo" eval="[(6, 0, [equipo1, equipo2, equipo3, equipo4])]"/>
+             <!--<field name="equipo" ref="equipo1"></field> -->
+            <!-- <field name="equipo" ref="equipo2"></field> -->
+            <!-- <field name="equipo" ref="equipo3"></field> -->
+            <!-- <field name="equipo" ref="equipo4"></field> -->
+          </record>
+
+          <record id="jugador1" model="proyecto_final.jugador">
+             <field name="name">11111111a</field>
+             <field name="nombre">Maria</field>
+             <field name="apellidos">Martinez</field>
+             <field name="fecha_nac">1990-02-12</field>
+             <field name="nacionalidad">Española</field>
+             <field name="equipo" ref="equipo1"></field>
+          </record>
+
+          <record id="jugador2" model="proyecto_final.jugador">
+             <field name="name">11111111b</field>
+             <field name="nombre">Antonio</field>
+             <field name="apellidos">Flores</field>
+             <field name="fecha_nac">1991-12-22</field>
+             <field name="nacionalidad">Española</field>
+             <field name="equipo" ref="equipo1"></field>
+          </record>
+
+          <record id="jugador3" model="proyecto_final.jugador">
+             <field name="name">11111111c</field>
+             <field name="nombre">Mario</field>
+             <field name="apellidos">Olmos</field>
+             <field name="fecha_nac">1992-05-30</field>
+             <field name="nacionalidad">Española</field>
+             <field name="equipo" ref="equipo1"></field>
+          </record>
+
+          <record id="jugador4" model="proyecto_final.jugador">
+             <field name="name">11111111d</field>
+             <field name="nombre">Macros</field>
+             <field name="apellidos">Velazquez</field>
+             <field name="fecha_nac">1993-03-14</field>
+             <field name="nacionalidad">Española</field>
+             <field name="equipo" ref="equipo1"></field>
+          </record>
+
+          <record id="jugador5" model="proyecto_final.jugador">
+             <field name="name">11111111e</field>
+             <field name="nombre">Charles</field>
+             <field name="apellidos">Chaplin</field>
+             <field name="fecha_nac">1989-03-03</field>
+             <field name="nacionalidad">Inglesa</field>
+             <field name="equipo" ref="equipo2"></field>
+          </record>
+
+          <record id="jugador6" model="proyecto_final.jugador">
+             <field name="name">11111111f</field>
+             <field name="nombre">Alfred</field>
+             <field name="apellidos">Mayordomo</field>
+             <field name="fecha_nac">1988-08-19</field>
+             <field name="nacionalidad">Inglesa</field>
+             <field name="equipo" ref="equipo2"></field>
+          </record>
+
+          <record id="jugador7" model="proyecto_final.jugador">
+             <field name="name">11111111g</field>
+             <field name="nombre">Mike</field>
+             <field name="apellidos">Tyson</field>
+             <field name="fecha_nac">1999-09-09</field>
+             <field name="nacionalidad">Inglesa</field>
+             <field name="equipo" ref="equipo2"></field>
+          </record>
+
+          <record id="jugador8" model="proyecto_final.jugador">
+             <field name="name">11111111h</field>
+             <field name="nombre">John</field>
+             <field name="apellidos">Doe</field>
+             <field name="fecha_nac">1998-07-07</field>
+             <field name="nacionalidad">Inglesa</field>
+             <field name="equipo" ref="equipo2"></field>
+          </record>
+
+          <record id="jugador9" model="proyecto_final.jugador">
+             <field name="name">11111111i</field>
+             <field name="nombre">Roman</field>
+             <field name="apellidos">Kushnarev</field>
+             <field name="fecha_nac">1991-11-23</field>
+             <field name="nacionalidad">Rusa</field>
+             <field name="equipo" ref="equipo3"></field>
+          </record>
+
+          <record id="jugador10" model="proyecto_final.jugador">
+             <field name="name">11111111j</field>
+             <field name="nombre">Vladimir</field>
+             <field name="apellidos">Minenko</field>
+             <field name="fecha_nac">1993-05-05</field>
+             <field name="nacionalidad">Rusa</field>
+             <field name="equipo" ref="equipo3"></field>
+          </record>
+
+          <record id="jugador11" model="proyecto_final.jugador">
+             <field name="name">11111111k</field>
+             <field name="nombre">Pavel</field>
+             <field name="apellidos">Khvastunov</field>
+             <field name="fecha_nac">1995-10-10</field>
+             <field name="nacionalidad">Rusa</field>
+             <field name="equipo" ref="equipo3"></field>
+          </record>
+
+          <record id="jugador12" model="proyecto_final.jugador">
+             <field name="name">11111111l</field>
+             <field name="nombre">Vladimir</field>
+             <field name="apellidos">Nikogosyan</field>
+             <field name="fecha_nac">1994-04-04</field>
+             <field name="nacionalidad">Rusa</field>
+             <field name="equipo" ref="equipo3"></field>
+          </record>
+
+          <record id="jugador13" model="proyecto_final.jugador">
+             <field name="name">11111111m</field>
+             <field name="nombre">Lasse</field>
+             <field name="apellidos">Urpalainen</field>
+             <field name="fecha_nac">1991-09-09</field>
+             <field name="nacionalidad">Noruega</field>
+             <field name="equipo" ref="equipo4"></field>
+          </record>
+
+          <record id="jugador14" model="proyecto_final.jugador">
+             <field name="name">11111111n</field>
+             <field name="nombre">Amer</field>
+             <field name="apellidos">Al-Barkawi</field>
+             <field name="fecha_nac">1989-01-01</field>
+             <field name="nacionalidad">Siria</field>
+             <field name="equipo" ref="equipo4"></field>
+          </record>
+
+          <record id="jugador15" model="proyecto_final.jugador">
+             <field name="name">11111111o</field>
+             <field name="nombre">Ivan</field>
+             <field name="apellidos">Ivanov</field>
+             <field name="fecha_nac">1990-06-06</field>
+             <field name="nacionalidad">Bulgara</field>
+             <field name="equipo" ref="equipo4"></field>
+          </record>
+
+          <record id="jugador16" model="proyecto_final.jugador">
+             <field name="name">11111111p</field>
+             <field name="nombre">Maroun</field>
+             <field name="apellidos">Merhej</field>
+             <field name="fecha_nac">1996-06-13</field>
+             <field name="nacionalidad">Siria</field>
+             <field name="equipo" ref="equipo4"></field>
+          </record>
+
+          <record id="partida1" model="proyecto_final.partida">
+             <field name="name">1</field>
+             <field name="equipo1" ref="equipo1"></field>
+             <field name="equipo2" ref="equipo2"></field>
+             <field name="resultado">1</field>
+             <field name="torneo" ref="torneo1"></field>
+          </record>
+
+          <record id="partida2" model="proyecto_final.partida">
+             <field name="name">2</field>
+             <field name="equipo1" ref="equipo3"></field>
+             <field name="equipo2" ref="equipo4"></field>
+             <field name="resultado">0</field>
+             <field name="torneo" ref="torneo1"></field>
+          </record>
+
+          <record id="partida3" model="proyecto_final.partida">
+             <field name="name">3</field>
+             <field name="equipo1" ref="equipo2"></field>
+             <field name="equipo2" ref="equipo4"></field>
+             <field name="resultado">1</field>
+             <field name="torneo" ref="torneo1"></field>
+          </record>
+
+
+
+        <!--   <record id="object1" model="proyecto_final.proyecto_final"> -->
+        <!--     <field name="name">Object 1</field> -->
+        <!--     <field name="value">10</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object2" model="proyecto_final.proyecto_final"> -->
+        <!--     <field name="name">Object 2</field> -->
+        <!--     <field name="value">20</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object3" model="proyecto_final.proyecto_final"> -->
+        <!--     <field name="name">Object 3</field> -->
+        <!--     <field name="value">30</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object4" model="proyecto_final.proyecto_final"> -->
+        <!--     <field name="name">Object 4</field> -->
+        <!--     <field name="value">40</field> -->
+        <!--   </record> -->
+        <!--  -->
+    </data>
+</odoo>
